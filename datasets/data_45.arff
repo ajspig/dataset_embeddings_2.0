@@ -1,0 +1,47 @@
+@relation data_45
+
+@attribute Group {Advanced,Arts,Psychology,Science}
+@attribute Digit {0,1,2,3,4,5,6,7,8,9}
+@attribute binaryClass {P,N}
+
+@data
+Psychology,0,N
+Science,0,P
+Arts,0,P
+Advanced,0,P
+Psychology,1,N
+Science,1,N
+Arts,1,P
+Advanced,1,P
+Psychology,2,N
+Science,2,N
+Arts,2,P
+Advanced,2,P
+Psychology,3,N
+Science,3,N
+Arts,3,P
+Advanced,3,P
+Psychology,4,N
+Science,4,P
+Arts,4,P
+Advanced,4,P
+Psychology,5,N
+Science,5,P
+Arts,5,P
+Advanced,5,P
+Psychology,6,N
+Science,6,P
+Arts,6,P
+Advanced,6,P
+Psychology,7,N
+Science,7,N
+Arts,7,P
+Advanced,7,P
+Psychology,8,N
+Science,8,P
+Arts,8,P
+Advanced,8,P
+Psychology,9,N
+Science,9,N
+Arts,9,P
+Advanced,9,P

@@ -1,0 +1,14 @@
+possible_groups:
+
+['landmarking',
+ 'general',
+ 'statistical',
+ 'model-based',
+ 'info-theory',
+ 'relative',
+ 'clustering',
+ 'complexity',
+ 'itemset',
+ 'concept',
+ 'all',
+ 'default']

@@ -1,0 +1,2 @@
+best_node.mean,best_node.sd,elite_nn.mean,elite_nn.sd,linear_discr.mean,linear_discr.sd,naive_bayes.mean,naive_bayes.sd,one_nn.mean,one_nn.sd,random_node.mean,random_node.sd,worst_node.mean,worst_node.sd
+0.7649999999999999,0.14729034063523802,0.76,0.16295875415440425,0.8,0.23687784005919826,0.76,0.2492210085669166,0.6799999999999999,0.2359378449224852,0.76,0.16295875415440422,0.5650000000000001,0.17488091186099566

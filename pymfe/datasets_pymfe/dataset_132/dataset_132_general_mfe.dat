@@ -1,0 +1,2 @@
+attr_to_inst,cat_to_num,freq_class.mean,freq_class.sd,inst_to_attr,nr_attr,nr_bin,nr_cat,nr_class,nr_inst,nr_num,num_to_cat
+1.0108108108108107,0.0,0.5,0.0420441869894704,0.9893048128342246,187.0,185.0,0.0,2.0,185.0,187.0,

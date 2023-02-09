@@ -1,0 +1,118 @@
+@relation data_432
+
+@attribute Patient_id numeric
+@attribute Year_of_acceptance numeric
+@attribute Age numeric
+@attribute Survival_Status {alive,dead}
+@attribute Survival_Time numeric
+@attribute Prior_Surgery {no,yes}
+@attribute Transplant_Status {not_transplanted,transplanted}
+@attribute Waiting_Time_for_Transplant numeric
+@attribute Mismatch_on_alleles numeric
+@attribute Mismatch_on_antigen numeric
+@attribute binaryClass {P,N}
+
+@data
+15,68,53,dead,1,no,not_transplanted,?,?,?,N
+43,70,43,dead,2,no,not_transplanted,?,?,?,N
+61,71,52,dead,2,no,not_transplanted,?,?,?,N
+75,72,52,dead,2,no,not_transplanted,?,?,?,N
+6,68,54,dead,3,no,not_transplanted,?,?,?,N
+42,70,36,dead,3,no,not_transplanted,?,?,?,N
+54,71,47,dead,3,no,not_transplanted,?,?,?,N
+38,70,41,dead,5,no,transplanted,5,3,0,P
+85,73,47,dead,5,no,not_transplanted,?,?,?,N
+2,68,51,dead,6,no,not_transplanted,?,?,?,N
+103,67,39,dead,6,no,not_transplanted,?,?,?,N
+12,68,53,dead,8,no,not_transplanted,?,?,?,N
+48,71,56,dead,9,no,not_transplanted,?,?,?,N
+102,74,40,alive,11,no,not_transplanted,?,?,?,N
+35,70,43,dead,12,no,not_transplanted,?,?,?,N
+95,73,40,dead,16,no,transplanted,2,0,0,P
+31,69,54,dead,16,no,not_transplanted,?,?,?,N
+3,68,54,dead,16,no,transplanted,1,2,0,N
+74,72,29,dead,17,no,transplanted,5,1,0,P
+5,68,20,dead,18,no,not_transplanted,?,?,?,N
+77,72,41,dead,21,no,not_transplanted,?,?,?,N
+99,73,49,dead,21,no,not_transplanted,?,?,?,N
+20,69,55,dead,28,no,transplanted,1,3,1,N
+70,72,52,dead,30,no,transplanted,5,3,1,N
+101,74,49,alive,31,no,not_transplanted,?,?,?,N
+66,72,53,dead,32,no,not_transplanted,?,?,?,N
+29,69,50,dead,35,no,not_transplanted,?,?,?,N
+17,68,20,dead,36,no,not_transplanted,?,?,?,N
+19,68,59,dead,37,no,not_transplanted,?,?,?,N
+4,68,40,dead,39,no,transplanted,36,3,0,N
+100,74,35,alive,39,yes,transplanted,38,3,0,N
+8,68,45,dead,40,no,not_transplanted,?,?,?,N
+44,70,42,dead,40,no,not_transplanted,?,?,?,N
+16,68,56,dead,43,no,transplanted,20,3,0,N
+45,71,36,dead,45,no,transplanted,1,1,0,N
+1,67,30,dead,50,no,not_transplanted,?,?,?,N
+22,69,42,dead,51,no,transplanted,12,3,0,N
+39,70,50,dead,53,no,transplanted,2,0,0,N
+10,68,42,dead,58,no,transplanted,12,2,1,N
+35,71,52,dead,61,no,transplanted,10,2,1,N
+37,70,61,dead,66,no,transplanted,19,3,0,N
+68,72,45,dead,68,no,transplanted,3,3,0,N
+60,71,49,dead,68,no,transplanted,3,3,0,N
+62,71,39,dead,69,no,not_transplanted,?,?,?,N
+28,69,53,dead,72,no,transplanted,71,2,0,N
+47,71,47,dead,72,no,transplanted,21,3,0,N
+32,69,64,dead,77,no,transplanted,17,4,0,N
+65,72,51,dead,78,no,transplanted,12,2,0,N
+83,73,53,dead,80,no,transplanted,32,4,0,N
+13,68,54,dead,81,no,transplanted,17,3,0,N
+9,68,47,dead,85,no,not_transplanted,?,?,?,N
+73,72,56,dead,90,no,transplanted,27,3,1,N
+79,72,53,dead,96,no,transplanted,67,2,0,N
+36,70,48,dead,100,no,transplanted,46,2,0,N
+32,71,41,dead,102,no,not_transplanted,?,?,?,N
+98,73,28,alive,109,no,transplanted,96,4,1,N
+87,73,46,dead,110,no,transplanted,60,2,0,N
+97,73,23,alive,131,no,transplanted,21,3,1,N
+37,71,41,dead,149,no,not_transplanted,?,?,?,N
+11,68,47,dead,153,no,transplanted,26,1,0,N
+94,73,43,dead,165,yes,transplanted,4,3,0,N
+96,73,26,alive,180,no,transplanted,13,2,0,N
+90,73,52,dead,186,yes,transplanted,160,3,1,P
+53,71,47,dead,188,no,transplanted,41,0,0,P
+89,73,51,dead,207,no,transplanted,139,4,1,N
+24,69,51,dead,219,no,transplanted,83,3,1,N
+27,69,8,dead,263,no,not_transplanted,?,?,?,N
+93,73,47,alive,265,no,transplanted,28,2,0,P
+51,71,48,dead,285,no,transplanted,32,4,1,N
+67,73,19,dead,285,no,transplanted,57,3,0,P
+16,68,49,dead,308,no,transplanted,28,2,0,N
+84,73,42,dead,334,no,transplanted,37,4,0,P
+91,73,47,dead,340,no,not_transplanted,?,?,?,N
+92,73,44,alive,340,no,transplanted,310,1,0,P
+58,71,47,dead,342,yes,transplanted,21,2,1,N
+88,73,54,alive,370,no,transplanted,31,3,0,P
+86,73,48,alive,397,no,transplanted,8,3,1,N
+82,71,29,alive,427,no,not_transplanted,?,?,?,N
+81,73,52,alive,445,no,transplanted,6,4,1,N
+80,72,46,alive,482,yes,transplanted,26,3,0,N
+78,72,48,alive,515,no,transplanted,210,3,0,P
+76,72,52,alive,545,yes,transplanted,46,3,1,N
+64,72,48,dead,583,yes,transplanted,32,1,0,P
+72,72,26,alive,596,no,transplanted,4,3,1,N
+71,72,47,alive,630,no,transplanted,31,3,0,P
+69,72,47,alive,670,no,transplanted,10,2,0,N
+7,68,50,dead,675,no,transplanted,51,4,0,N
+23,69,58,dead,733,no,transplanted,3,3,0,P
+63,71,32,alive,841,no,transplanted,27,3,1,N
+30,69,44,dead,852,no,transplanted,16,4,0,N
+59,71,41,alive,915,no,transplanted,78,2,0,P
+56,71,38,alive,941,no,transplanted,67,4,0,P
+50,71,45,dead,979,yes,transplanted,83,0,0,P
+46,71,48,dead,995,yes,transplanted,2,2,0,P
+21,69,43,dead,1032,no,transplanted,8,2,0,N
+49,71,36,alive,1141,yes,transplanted,36,4,0,N
+41,70,45,alive,1321,yes,transplanted,58,2,0,P
+14,68,53,dead,1386,no,transplanted,37,1,0,P
+26,69,30,alive,1400,no,not_transplanted,?,?,?,N
+40,70,48,alive,1407,yes,transplanted,41,4,0,P
+34,69,40,alive,1571,no,transplanted,23,2,0,P
+33,69,48,alive,1586,no,transplanted,51,3,0,P
+25,69,33,alive,1799,no,transplanted,25,2,0,N

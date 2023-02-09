@@ -1,0 +1,39 @@
+@relation data_21
+
+@attribute Country {Australia,Brazil,Canada,Chile,Colombia,Costa_Rica,Czech_Republic,Dominican_Republic,Ecuador,Egypt,Guatemala,Hungary,India,Indonesia,Korea,Malaysia,Mexico,Morocco,Pakistan,Paraguay,Peru,Philippines,Poland,Russia,Singapore,Slovenia,Thailand,Turkey,United_Kingdom,United_States,Venezuela}
+@attribute Income_level {High,Low,Middle}
+@attribute Debt_service_ratio numeric
+@attribute binaryClass {P,N}
+
+@data
+Australia,High,10.1,N
+Brazil,Middle,31,P
+Canada,High,0,N
+Chile,Middle,15.8,N
+Colombia,Middle,26.7,P
+Costa_Rica,Middle,7.4,P
+Czech_Republic,Middle,8.9,N
+Dominican_Republic,Middle,6.7,P
+Ecuador,Middle,25.5,N
+Egypt,Middle,7.2,N
+Guatemala,Middle,8,P
+Hungary,Middle,12.9,N
+India,Low,19,P
+Indonesia,Low,40,N
+Korea,Middle,23,N
+Malaysia,Middle,4.7,N
+Mexico,Middle,11,N
+Morocco,Middle,20.8,P
+Pakistan,Low,26.1,N
+Paraguay,Middle,8,N
+Peru,Middle,24.6,P
+Philippines,Middle,12.2,P
+Poland,Middle,14.8,N
+Russia,Middle,9.6,N
+Singapore,High,0,N
+Slovenia,High,9.1,N
+Thailand,Low,14.9,N
+Turkey,Middle,35.7,N
+United_Kingdom,High,0,N
+United_States,High,0,N
+Venezuela,Middle,15.2,N

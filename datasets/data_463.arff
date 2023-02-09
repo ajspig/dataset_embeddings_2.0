@@ -1,0 +1,46 @@
+@relation data_463
+
+@attribute SPECIES {African_elephant,baboon,barracuda,bat,blue_whale,brown_trout,canary,catfish,cheetah,chimpanzee,crow,flamingo,grey_monkey,greyhound,grizzly_bear,horse,human,lion,loon,mackerel,mole,mouse,northern_trout,ostrich,pheasant,pigeon,porpoise,raccoon,rhinoceros,salmon,seal,skunk,squirrel,stork,tiger,tuna,vulture,walrus,wolf}
+@attribute BRAIN_WT numeric
+@attribute binaryClass {P,N}
+
+@data
+canary,0.848,P
+crow,9.3,P
+flamingo,8.05,P
+loon,6.12,P
+ostrich,42.11,P
+pheasant,3.289,P
+pigeon,2.694,P
+stork,16.24,P
+vulture,19.6,P
+catfish,1.84,P
+barracuda,3.83,P
+mackerel,0.64,P
+salmon,1.257,P
+brown_trout,0.57,P
+tuna,3.09,P
+northern_trout,1.233,P
+grizzly_bear,233.9,P
+cheetah,2.449,P
+lion,106.7,P
+raccoon,40,P
+skunk,10.3,P
+tiger,302,P
+wolf,152,P
+greyhound,105.9,P
+seal,442,P
+walrus,1126,P
+porpoise,1735,P
+blue_whale,6800,N
+bat,0.936,P
+mole,1.16,P
+baboon,140,P
+grey_monkey,66.6,P
+chimpanzee,440,P
+human,1377,P
+mouse,0.551,P
+squirrel,3.97,P
+rhinoceros,655,P
+African_elephant,5712,N
+horse,618,P

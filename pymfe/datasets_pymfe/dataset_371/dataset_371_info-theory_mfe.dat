@@ -1,0 +1,2 @@
+attr_conc.mean,attr_conc.sd,attr_ent.mean,attr_ent.sd,class_conc.mean,class_conc.sd,class_ent,eq_num_attr,joint_ent.mean,joint_ent.sd,mut_inf.mean,mut_inf.sd,ns_ratio
+0.5134321140546002,0.0,1.584068055375491,0.0,0.3416937917253339,0.0,0.99819587904281,1.4797208766376615,1.907680034979787,0.0,0.674583899438514,0.0,1.348215035511492

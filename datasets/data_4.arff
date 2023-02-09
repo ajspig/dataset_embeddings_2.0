@@ -1,0 +1,59 @@
+@relation data_4
+
+@attribute Sex {Female,Male}
+@attribute Age {15-24,25-34,35-44,45-54,55_&_older}
+@attribute Race {American_Indian_&_Alaska_Native,Asian_&_Pacific_Islander,Black_not_Hispanic,Hispanic,White_not_Hispanic}
+@attribute AIDS numeric
+@attribute binaryClass {P,N}
+
+@data
+Male,15-24,White_not_Hispanic,2555,N
+Male,25-34,White_not_Hispanic,55300,N
+Male,35-44,White_not_Hispanic,82334,N
+Male,45-54,White_not_Hispanic,38006,N
+Male,55_&_older,White_not_Hispanic,16068,N
+Male,15-24,Black_not_Hispanic,2489,P
+Male,25-34,Black_not_Hispanic,34204,P
+Male,35-44,Black_not_Hispanic,51776,P
+Male,45-54,Black_not_Hispanic,23896,P
+Male,55_&_older,Black_not_Hispanic,10169,P
+Male,15-24,Hispanic,1363,P
+Male,25-34,Hispanic,20712,P
+Male,35-44,Hispanic,27200,P
+Male,45-54,Hispanic,11251,P
+Male,55_&_older,Hispanic,4674,P
+Male,15-24,Asian_&_Pacific_Islander,38,P
+Male,25-34,Asian_&_Pacific_Islander,731,P
+Male,35-44,Asian_&_Pacific_Islander,1162,P
+Male,45-54,Asian_&_Pacific_Islander,560,P
+Male,55_&_older,Asian_&_Pacific_Islander,258,P
+Male,15-24,American_Indian_&_Alaska_Native,26,P
+Male,25-34,American_Indian_&_Alaska_Native,390,P
+Male,35-44,American_Indian_&_Alaska_Native,417,P
+Male,45-54,American_Indian_&_Alaska_Native,140,P
+Male,55_&_older,American_Indian_&_Alaska_Native,48,P
+Female,15-24,White_not_Hispanic,490,N
+Female,25-34,White_not_Hispanic,4788,N
+Female,35-44,White_not_Hispanic,5377,N
+Female,45-54,White_not_Hispanic,2152,N
+Female,55_&_older,White_not_Hispanic,1790,N
+Female,15-24,Black_not_Hispanic,1490,P
+Female,25-34,Black_not_Hispanic,12280,P
+Female,35-44,Black_not_Hispanic,15713,P
+Female,45-54,Black_not_Hispanic,5788,P
+Female,55_&_older,Black_not_Hispanic,2534,P
+Female,15-24,Hispanic,493,P
+Female,25-34,Hispanic,4660,P
+Female,35-44,Hispanic,5153,P
+Female,45-54,Hispanic,1944,P
+Female,55_&_older,Hispanic,910,P
+Female,15-24,Asian_&_Pacific_Islander,6,P
+Female,25-34,Asian_&_Pacific_Islander,83,P
+Female,35-44,Asian_&_Pacific_Islander,106,P
+Female,45-54,Asian_&_Pacific_Islander,69,P
+Female,55_&_older,Asian_&_Pacific_Islander,55,P
+Female,15-24,American_Indian_&_Alaska_Native,3,P
+Female,25-34,American_Indian_&_Alaska_Native,78,P
+Female,35-44,American_Indian_&_Alaska_Native,77,P
+Female,45-54,American_Indian_&_Alaska_Native,31,P
+Female,55_&_older,American_Indian_&_Alaska_Native,14,P

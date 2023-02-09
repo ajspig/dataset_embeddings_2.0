@@ -1,0 +1,44 @@
+@relation data_138
+
+@attribute col_1 {Apalachicola_Bay,Barataria_Bay,Bodega_Bay,Boston_Harbor,Buzzards_Bay,Casco_Bay,Charleston_Harbor,Columbia_River_Mouth,Commencement_Bay,Coos_Bay,Corpus_Christi_Bay,Dana_Point,Delaware_Bay,E_Long_Island_Sound,Elliott_Bay,Lower_Chesapeake_Bay,Lutak_Inlet,Merrimack_River,Mississippi_R_Delta,Mobile_Bay,Nahku_Bay,Narragansett_Bay,Nisqually_Beach,Pamilico_Sound,Raritan_Bay,Round_Island,Salem_Harbor,San_Antonio_Bay,San_Diego_Bay,San_Diego_Harbor,San_Pedro_Canyon,Santa_Monica_Bay,Sapelo_Sound,Seal_Beach,St_Johns_River,Tampa_Bay,W_Long_Island_Sound}
+@attribute col_2 numeric
+@attribute binaryClass {P,N}
+
+@data
+Casco_Bay,9528,P
+Merrimack_River,5297,P
+Salem_Harbor,53358,N
+Boston_Harbor,1710486,N
+Buzzards_Bay,30846,N
+Narragansett_Bay,15996,N
+E_Long_Island_Sound,1000,P
+W_Long_Island_Sound,23443,N
+Raritan_Bay,44389,N
+Delaware_Bay,250,N
+Lower_Chesapeake_Bay,5100,P
+Pamilico_Sound,0,P
+Charleston_Harbor,910,P
+Sapelo_Sound,0,P
+St_Johns_River,14000,N
+Tampa_Bay,0,P
+Apalachicola_Bay,1200,P
+Mobile_Bay,0,P
+Round_Island,0,P
+Mississippi_R_Delta,3400,P
+Barataria_Bay,0,P
+San_Antonio_Bay,0,P
+Corpus_Christi_Bay,0,P
+San_Diego_Harbor,42210,N
+San_Diego_Bay,674,P
+Dana_Point,706,P
+Seal_Beach,4671,P
+San_Pedro_Canyon,15956,N
+Santa_Monica_Bay,1400,P
+Bodega_Bay,418,P
+Coos_Bay,319,P
+Columbia_River_Mouth,877,P
+Nisqually_Beach,423,P
+Commencement_Bay,2060,P
+Elliott_Bay,2060,P
+Lutak_Inlet,550,P
+Nahku_Bay,660,P

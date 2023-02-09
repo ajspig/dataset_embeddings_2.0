@@ -1,0 +1,2 @@
+best_node.mean.relative,best_node.sd.relative,elite_nn.mean.relative,elite_nn.sd.relative,linear_discr.mean.relative,linear_discr.sd.relative,naive_bayes.mean.relative,naive_bayes.sd.relative,one_nn.mean.relative,one_nn.sd.relative,random_node.mean.relative,random_node.sd.relative,worst_node.mean.relative,worst_node.sd.relative
+5.0,6.0,2.0,7.0,4.0,3.0,6.0,2.0,3.0,5.0,1.0,1.0,7.0,4.0

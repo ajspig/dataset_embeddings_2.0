@@ -1,0 +1,29 @@
+algs = [
+    LogisticRegression(), 
+    Perceptron(), 
+    PassiveAggressiveClassifier(), 
+    RidgeClassifier(), 
+    LinearDiscriminantAnalysis(), 
+    QuadraticDiscriminantAnalysis(), 
+    LinearSVC(), 
+    # SVC(), ValueError: The dual coefficients or intercepts are not finite. The input data may contain 
+    #large values and need to bepreprocessed.
+    # NuSVC(), ValueError: The dual coefficients or intercepts are not finite. The input data may contain 
+    # large values and need to bepreprocessed.
+    KNeighborsClassifier(), 
+    # RadiusNeighborsClassifier(), Difficult to set default/min radius, Error: No neighbors found for test 
+    # samples array([1, 7]), you can try using larger radius, giving a label for outliers, or considering
+    # removing them from your dataset.
+    NearestCentroid(), 
+    GaussianProcessClassifier(), 
+    GaussianNB(), 
+    MultinomialNB(), 
+    ComplementNB(), 
+    BernoulliNB(), 
+    # CategoricalNB(), Applicable only to categorical features, would need to discretize all of the attribites
+    DecisionTreeClassifier(), 
+    RandomForestClassifier(), 
+    GradientBoostingClassifier(), 
+    HistGradientBoostingClassifier(), 
+    MLPWrapper()
+]

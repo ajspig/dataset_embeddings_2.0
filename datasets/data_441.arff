@@ -1,0 +1,98 @@
+@relation data_441
+
+@attribute Group {placebo,thiotepa}
+@attribute futime numeric
+@attribute number numeric
+@attribute size numeric
+@attribute recurrence numeric
+@attribute time_1 numeric
+@attribute time_2 numeric
+@attribute binaryClass {P,N}
+
+@data
+placebo,0,1,1,?,?,?,N
+placebo,1,1,3,?,?,?,N
+placebo,4,2,1,?,?,?,N
+placebo,7,1,1,?,?,?,N
+placebo,10,5,1,?,?,?,N
+placebo,10,4,1,6,?,?,N
+placebo,14,1,1,?,?,?,N
+placebo,18,1,1,?,?,?,N
+placebo,18,1,3,5,?,?,N
+placebo,18,1,1,12,16,?,N
+placebo,23,3,3,?,?,?,N
+placebo,23,1,3,10,15,?,N
+placebo,23,1,1,3,16,23,N
+placebo,23,3,1,3,9,21,N
+placebo,24,2,3,7,10,16,P
+placebo,25,1,1,3,15,25,N
+placebo,26,1,2,?,?,?,N
+placebo,26,8,1,1,?,?,N
+placebo,26,1,4,2,26,?,N
+placebo,28,1,2,25,?,?,N
+placebo,29,1,4,?,?,?,N
+placebo,29,1,2,?,?,?,N
+placebo,29,4,1,?,?,?,N
+placebo,30,1,6,28,30,?,N
+placebo,30,1,5,2,17,22,N
+placebo,30,2,1,3,6,8,P
+placebo,31,1,3,12,15,24,N
+placebo,32,1,2,?,?,?,N
+placebo,34,2,1,?,?,?,N
+placebo,36,2,1,?,?,?,N
+placebo,36,3,1,29,?,?,N
+placebo,37,1,2,?,?,?,N
+placebo,40,4,1,9,17,22,P
+placebo,40,5,1,16,19,23,N
+placebo,41,1,2,?,?,?,N
+placebo,43,1,1,3,?,?,N
+placebo,43,2,6,6,?,?,N
+placebo,44,2,1,3,6,9,N
+placebo,45,1,1,9,11,20,P
+placebo,48,1,1,18,?,?,N
+placebo,49,1,3,?,?,?,N
+placebo,51,3,1,35,?,?,N
+placebo,53,1,7,17,?,?,N
+placebo,53,3,1,3,15,46,N
+placebo,59,1,1,?,?,?,N
+placebo,61,3,2,2,15,24,N
+placebo,64,1,3,5,14,19,N
+placebo,64,2,3,2,8,12,P
+thiotepa,1,1,3,?,?,?,N
+thiotepa,1,1,1,?,?,?,N
+thiotepa,5,8,1,5,?,?,N
+thiotepa,9,1,2,?,?,?,N
+thiotepa,10,1,1,?,?,?,N
+thiotepa,13,1,1,?,?,?,N
+thiotepa,14,2,6,3,?,?,N
+thiotepa,17,5,3,1,3,5,P
+thiotepa,18,5,1,?,?,?,N
+thiotepa,18,1,3,17,?,?,N
+thiotepa,19,5,1,2,?,?,N
+thiotepa,21,1,1,17,19,?,N
+thiotepa,22,1,1,?,?,?,N
+thiotepa,25,1,3,?,?,?,N
+thiotepa,25,1,5,?,?,?,N
+thiotepa,25,1,1,?,?,?,N
+thiotepa,26,1,1,6,12,13,N
+thiotepa,27,1,1,6,?,?,N
+thiotepa,29,2,1,2,?,?,N
+thiotepa,36,8,3,26,35,?,N
+thiotepa,38,1,1,?,?,?,N
+thiotepa,39,1,1,22,23,27,N
+thiotepa,39,6,1,4,16,23,N
+thiotepa,40,3,1,24,26,29,N
+thiotepa,41,3,2,?,?,?,N
+thiotepa,41,1,1,?,?,?,N
+thiotepa,43,1,1,1,27,?,N
+thiotepa,44,1,1,?,?,?,N
+thiotepa,44,6,1,2,20,23,N
+thiotepa,45,1,2,?,?,?,N
+thiotepa,46,1,4,2,?,?,N
+thiotepa,46,1,4,?,?,?,N
+thiotepa,49,3,3,?,?,?,N
+thiotepa,50,1,1,?,?,?,N
+thiotepa,50,4,1,4,24,47,N
+thiotepa,54,3,4,?,?,?,N
+thiotepa,54,2,1,38,?,?,N
+thiotepa,59,1,3,?,?,?,N
