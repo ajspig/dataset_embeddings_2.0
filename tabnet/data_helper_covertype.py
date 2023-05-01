@@ -2,6 +2,13 @@
 
 import tensorflow as tf
 import pdb
+import pickle
+
+
+# change 'variables.pkl' to be a name specific to the dataset 
+#with open('variables.pkl', 'rb') as f:
+#    pickle.dump((NUM_SAMPLES, NUM_FEATURES, LABEL_COLUMN, BOOL_COLUMNS, INT_COLUMNS, STR_COLUMNS, FLOAT_COLUMNS), f)
+# not quite sure how to rename this, they need to be defined, does pickle require they have the same names? 
 
 # Dataset size
 N_TRAIN_SAMPLES = 309871
@@ -82,12 +89,7 @@ def parse_csv(value_column):
   return features, classes
 
 
-def input_fn(data_file,
-             num_epochs,
-             shuffle,
-             batch_size,
-             n_buffer=50,
-             n_parallel=16):
+def input_fn(data_file, num_epochs, shuffle, batch_size, n_buffer=50, n_parallel=16):
   """Function to read the input file and return the dataset.
 
   Args:
