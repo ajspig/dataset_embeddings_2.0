@@ -40,13 +40,14 @@ config_file = os.path.join(rootdir, "configurations",f"configuration-{args.confi
 info_file   = os.path.join(rootdir, "metadataset"  ,"info.json") #/users/guest/j/jhiggin6/Documents/Thesis/d2v/metadataset/info.json
 
 configuration = json.load(open(config_file,'r'))
+### added by Josh ###
 #  configuration = {
 #  'nonlinearity_d2v': 'relu', 'units_f': 32, 'nhidden_f': 4, 'architecture_f': 'SQU',
 #  'resblocks_f': 8, 'units_h': 32, 'nhidden_h': 4, 'architecture_h': 'SQU', 
 #  'resblocks_h': 8, 'units_g': 32, 'nhidden_g': 4, 'architecture_g': 'SQU', 
 #  'ninstanc': 256, 'nclasses': 5, 'nfeature': 32, 'number': 0
 #  }
-
+### end added by Josh ###
 # update with shared configurations with specifics
 config_specs = {
     'split':	args.split,
@@ -62,6 +63,7 @@ configuration.update(config_specs)
 
 searchspaceinfo = json.load(open(info_file,'r'))
 configuration.update(searchspaceinfo[args.searchspace])
+### added by Josh ###
 #  configuration = {
 #  'nonlinearity_d2v': 'relu', 'units_f': 32, 'nhidden_f': 4, 'architecture_f': 'SQU',
 #  'resblocks_f': 8, 'units_h': 32, 'nhidden_h': 4, 'architecture_h': 'SQU',
@@ -73,7 +75,7 @@ configuration.update(searchspaceinfo[args.searchspace])
 #  }
 
 # pdb.set_trace()
-
+### end added by Josh ###
 # create Dataset
 normalized_dataset = Dataset(configuration,rootdir,use_valid=True)
 
@@ -150,7 +152,7 @@ for epoch in range(epochs):
 model.save_weights(iteration=optimizer.iterations.numpy())   
 import pandas as pd
 metafeatures = pd.DataFrame(data=None)
-splitmf = [];
+splitmf = []
 filesmf = []
 for splits in [("train",nsource),("valid",ntarget),("test",ntest)]:
     for _ in range(splits[1]):

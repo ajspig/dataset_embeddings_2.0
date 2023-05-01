@@ -30,7 +30,7 @@ def main():
             target = df.pop(df.iloc[:,-1].name)
             df = pd.get_dummies(df)
 
-            mapping = {a:i for i, a in enumerate(list(target.unique()))}
+            mapping = {a:i for i, a in enumerate(list(target.unique()))} # I think this might be the problem 
             target = target.map(mapping)
 
             df.to_csv(f"dataset_{i}_py.dat", index=False, header=False)
