@@ -2,9 +2,10 @@ import pandas as pd
 from scipy.io.arff import loadarff
 import os
 
-prev_dir = '/Users/joshhiggins/Documents/Grad_School/thesis/466datasets'
-my_dir = '/Users/joshhiggins/Documents/Grad_School/thesis/dataset2vec-2/466datasets'
-
+#prev_dir = '/Users/joshhiggins/Documents/Grad_School/thesis/466datasets'
+#my_dir = '/Users/joshhiggins/Documents/Grad_School/thesis/dataset2vec-2/466datasets'
+prev_dir = '../datasets'
+my_dir = '466datasets'
 
 def main():
 
