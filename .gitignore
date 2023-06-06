@@ -1,0 +1,8 @@
+IGTD/Data/
+IGTD/Results/
+tabnet/myenv/
+tabnet/newenv/
+IGTD/IGTD.csv
+tabnet_2.0/datasets/
+tabnet_2.0/embeddings/
+analyze_meta_datasets/IGTD.csv
