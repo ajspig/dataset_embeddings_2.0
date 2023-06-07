@@ -10,7 +10,7 @@ To extract metafeatures from new datasets, run the extract_meta_features.py file
 that your data follows the same format as the existing datasets, i.e. separate predictor and labels .dat 
 files with no headers/indices.
 ```
-python extract_meta_features.py --file abalone
+python extract_meta_features.py --file 
 ```
 
 ## Citing Dataset2Vec
