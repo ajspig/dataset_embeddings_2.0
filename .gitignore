@@ -5,4 +5,4 @@ tabnet/newenv/
 IGTD/IGTD.csv
 tabnet_2.0/datasets/
 tabnet_2.0/embeddings/
-analyze_meta_datasets/IGTD.csv
+analyze_meta_models/meta_datasets/IGTD.csv
