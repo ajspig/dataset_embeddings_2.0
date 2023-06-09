@@ -1,5 +1,5 @@
 # Goal: build a csv file with the ground truth for the datasets (from emp_results.csv)
-# will only need to be run once
+# only needs to be run once
 import pandas as pd
 import numpy as np
 import re
