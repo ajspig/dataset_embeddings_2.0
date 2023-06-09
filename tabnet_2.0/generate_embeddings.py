@@ -8,8 +8,8 @@ import os
 import re
 from sklearn.preprocessing import LabelEncoder
 
-# when we run this script I want to pass in what the cat_emb_dim is 
-# possibly the folder for the dataset, but hold on that thought 
+# future work pass in the cat_emb_dim and the dataset folder as arguments
+
 
 def get_tensor_file(filename):
     # create a pandas dataframe from the ARFF file
@@ -68,7 +68,6 @@ def main():
                 # save the embeddings to a file 
                 t_np = embeddings.detach().numpy()
                 df = pd.DataFrame(t_np)
-                #df.to_csv(os.path.join('embeddings', filename.replace('.arff', '.csv')), index=False)
                 df.to_csv(os.path.join(os.path.abspath(os.path.dirname(__file__)), 'embeddings', filename.replace('.arff', '.csv')), index=False)
 
 
